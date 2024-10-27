@@ -1,0 +1,33 @@
+/* Estilos previos... */
+
+.back-button {
+    display: inline-block;
+    background-color: #8E704D;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #704D2A;
+}
+
+/* Responsividad... */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero img {
+        width: 150px;
+    }
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}
